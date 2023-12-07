@@ -11,8 +11,17 @@ export default function FeaturesBlocks() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 mb-4">Explore the solutions</h2>
-            <p className="text-xl text-gray-600">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat.</p>
+            <h2 className="h2 mb-4">Proceso de mediciones.</h2>
+            <p className="text-xl text-gray-600">Aquí se verá el proceso de análisis. Partiendo por ... </p>
+            <img src="https://i.pinimg.com/originals/d0/5c/77/d05c77c423324c5b06f09fae67869373.jpg " />
+
+            <p className="text-xl text-gray-600">Luego se realiza ... </p>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNOZHPAdCfF-Gk9IyfCcUoZzvYlj6YjohJTgbZ1RIMiDRQC9UTjMFG8qEUxFqgcUH8jjo&usqp=CAU " />
+            
+            <p className="text-xl text-gray-600">Luego se aplica ... </p>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfiEjJ1SrmqKyAWX0DQTY908ix3J5R9m7m2Q&usqp=CAU" />
+            
+
           </div>
 
           {/* Items */}
