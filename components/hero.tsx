@@ -31,15 +31,21 @@ export default function Hero() {
           <div className="text-center pb-12 md:pb-16">
             <h1 className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4" data-aos="zoom-y-out">Densidad en imagenes <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400">astronomicas</span></h1>
             <div className="max-w-3xl mx-auto">
-              <p className="text-xl text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">Clasificador de imágenes según su densidad. Al usar este sistema de clasificación al poder medir la densidad de una imagen se puede sacar una idea de que existe en ella.</p>
+              <p className="text-xl text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150"> Actualmente los telescopios y formas de recopilar información sobre el espacio son cada vez mayores y más eficientes, esto se traduce en
+              mayor cantidad de datos a procesar, sin mencionar lo cambiante que es el espacio mismo.
+              </p>
+
+              <p className="text-xl text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">Por lo que las formas de análisis manuales o de baja capacidad son cada vez mas obsoletas, debido a esto se busca una forma de análisis más rápida y automática.
+              </p>
+
               <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center" data-aos="zoom-y-out" data-aos-delay="300">
-                <div>
-                  <a className="btn text-white bg-blue-600 hover:bg-blue-700 w-full mb-4 sm:w-auto sm:mb-0" href="#0">Mas informacion</a>
-                </div>
-                <div>
-                  <a className="btn text-white bg-gray-900 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" href="#0">Proyecto</a>
-                </div>
+                
+              <h3 className="h3 ">Solución</h3>
+
               </div>
+              <p className="text-xl text-gray-600">nuestro proyecto se decidió trabajar clasificando imágenes según su densidad. Al usar este sistema de clasificación al poder medir la densidad de una imagen se puede sacar una idea de que
+              existe en ella. Ya que al ser más densa una imagen existe más probabilidad de la existencia de astros o materia oscura, por lo que se hará una proceso de machine learning con un catálogo estelar para posteriormente procesarimágenes
+               y obtener resultados de forma automática. </p>
             </div>
           </div>
 
